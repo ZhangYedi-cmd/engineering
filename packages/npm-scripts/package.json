@@ -1,0 +1,23 @@
+{
+  "name": "@yedizhang/npm-scripts",
+  "version": "2.0.2",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prelint": "echo \"prelint\"",
+    "lint": "echo \"npm run lint\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo \"prepublishOnly\" ",
+    "prepare": "echo \"prepare\"",
+    "prepack": "echo \"prepack\" ",
+    "postpack": "echo \"postpack\" ",
+    "postpublish": "echo \"postpublish\""
+  },
+  "dependencies": {
+    "@yedizhang/depmanager": "workspace:*"
+  },
+  "sideEffects": false,
+  "author": "",
+  "license": "ISC"
+}
